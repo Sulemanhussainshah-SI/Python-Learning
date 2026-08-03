@@ -89,7 +89,39 @@ print("A",end="-")
 print("B",end="-")
 print("C")
   
+# Input from User:- the input() function is used to take input from the user.
+
+name = input("enter your Name: ")
+print("hellow",name)
+
+#Imp point :- the input() function always returns data as a string.
+age = input("enter youur age:")
+print(age)
+print(type(age)) #Even though the user entered 21,python stores it as "21".
+
+#Taking integer input:- to convert input into an integer,user int().
+age = int(input("enter your age:"))
+print("your age is :",age)
+print(type(age)) 
+
+#taking float input:- to convert input into decimal number ,use float().
+price=float(input("enter your money in float:"))
+print("price is :",price)
+print(type(price))
 
 
+# example:-
+num1=int(input("enter first numbers:"))
+num2=int(input("enter second numbers:"))
 
+result=num1+num2
 
+print("sum is :",result)
+
+# WHAT happens without int():-
+num1=input("enter first numbers:")
+num2=input("enter second numbers:")
+
+result= num1+num2
+
+print("sum :",result)
