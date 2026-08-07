@@ -11,7 +11,7 @@ print(a**b) #exponent
 print(a//b) #floor division
 print(a%b) #remainder
 
-# Comparision Operator ; always return value in boolean 
+# Comparision Operator :- always return value in boolean 
 
 x = 5
 y = 7
@@ -23,7 +23,7 @@ print(x>y)  #false
 print(x<=y) #true
 print(x>=y) #false
 
-#Assignment operator :used for jab kisi variable ko value assign karna ho ya value dena ho
+#Assignment operator : used for jab kisi variable ko value assign karna ho ya value dena ho
 
 i = 5 #assign 5
 print(i)
@@ -88,6 +88,8 @@ t=[1,0]
 y=[1,0]
 
 print (t is not y ) #q ki dono alag object hain
+
+
 
 
 
