@@ -8,5 +8,8 @@
 6. Dictionaries are written using curly braces {}.
 
 # SYNTAX 
-'''dictonary_name = { key1 : value1, key2 : value2, key3 := value3}'''
+```#syntax
+dictonary_name = { key1 : value1,
+          key2 : value2,
+           key3 := value3}```
  
