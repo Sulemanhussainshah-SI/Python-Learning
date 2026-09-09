@@ -7,8 +7,8 @@
 5. Dictionary keys must be unique.
 6. Dictionaries are written using curly braces {}.
 
-# SYNTAX 
-```#syntax
+### SYNTAX 
+```
 dictonary_name = { key1 : value1,
           key2 : value2,
            key3 := value3}
