@@ -1,4 +1,4 @@
-## Datatype:- ➡️
+## ⭐ Datatype:- ➡️
 - A datatype tells python what kind of value a variable is storing.
 - datatype = type/category of data stored in a variable.
 
@@ -9,7 +9,7 @@ price=49.9
 is_active=True
 ```
 
-## Numbers :- ➡️
+## ✅ Numbers :- ➡️
 Numbers are used to store numeric value .
 - It is three types :- int,float,complex.
 
