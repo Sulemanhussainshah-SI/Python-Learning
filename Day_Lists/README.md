@@ -1,4 +1,4 @@
-# Lists :- ➡️ 
+# ⭐ Lists :- ➡️ 
 - A lists is a data structure used to store multiple values in one variables.
 -  A lists is collections of different datatypes stored in one variables.
 - lists are written using square bracket ()
@@ -59,7 +59,7 @@ list_name =["sulema",20,True, 39.5,{'country:' 'finland','city:''halki'}]
 print(list_name)
 ```
 
-## Accessing List items :- 
+## ✅ Accessing List items :- ➡️
 - we access each items in a list using their index.
 - lists items are accessed using index numbers.
 - Python indexing starts from 0.
@@ -88,7 +88,7 @@ print("last_fruits:",fruits[last_index])
 ```
 
 
-## Unpacking lists items :-➡️
+## ✅ Unpacking lists items :-➡️
 - means agar list ke ander multiple value hain aur hum   un values ko alag-alag variables main nikalna chata ho, usko unpacking kehta hain.
  
 
@@ -176,7 +176,7 @@ print(middle)
 print(sul)
 ```
 
-## Slicing items from a lists:-➡️
+## ✅ Slicing items from a lists:-➡️
 ```py
 #positive:-
 
@@ -204,7 +204,7 @@ print(all_numbers[:]) #fully slicing
 ```
 
 
-## Adding items to a list:-➡️
+## ✅ Adding items to a list:-➡️
 - To add items to the end of an existing lists we use the method <kbd>append()</kbd>.
 ```py
 Syntax :-
@@ -287,7 +287,7 @@ fruits[0:3]=['avacodo','banana','lemon']
 print(fruits,"\n")
 ```
 
-## Checking items in a list:- ➡️ 
+## ✅ Checking items in a list:- ➡️ 
 - Python mein list mein item check karna matlab dekhna ki koi particular items list ke ander hai ya nahi.
     - That is use two operator :-
             - in operator
@@ -307,7 +307,7 @@ print('guava' not in fruits) #T Q ki guava list ka ander mein nahi hai.
 print('banana' not in fruits) #F Qdki banana list ke ander hai.
 ```
 
-## Removing items from a list:-➡️
+## ✅ Removing items from a list:-➡️
 - The <kbd>remove()</kbd> method removes a specified item from a list (value se item remove) 
 ```py
 Syntax:-
@@ -326,7 +326,7 @@ print(fruits)
 #print(fruits) type error dega .
 ```
 
-## Removing items using Pop:- ➡️
+## ✅ Removing items using Pop:- ➡️
 - The <kbd>pop()</kbd> method romoves the specified index, (or the last item if index is not specidied)
 ```py
 Syntax:-
@@ -345,7 +345,7 @@ fruits.pop(-1)
 print(fruits)
 ```
 
-## Removing items using Del:- ➡️
+## ✅ Removing items using Del:- ➡️
 - The <kbd>del</kbd> keywords removes the specified index &it can also be used to delete items within index range.
 - it can also delete the lists completely.
 ```py
@@ -367,7 +367,7 @@ print(fruits)
 del fruits
 #print(fruits),because namesrror ,fruits is not defined.
 ```
-## Clearing lists items:- ➡️
+## ✅ Clearing lists items:- ➡️
 - The <kbd>clear()</kbd> method empities the lists.
 ```py
 Syntax:-
@@ -382,7 +382,7 @@ numbers.clear()
 print(numbers) #[] that is empty.
 ```
 
-## Copying in a lists:- ➡️
+## ✅ Copying in a lists:- ➡️
 - Python mein lists copying ka matlab hai ek list ki copy karna.
 ```py
 Syntax:-
@@ -400,7 +400,7 @@ print(fruits)
 print(new_fruits)
 ```
 
-## Joining items in lists:- ➡️
+## ✅ Joining items in lists:- ➡️
 - There are several ways to join ,or concatenate,two or more lists in python."""
 ###### (+) plus operator:-
 ```py
@@ -440,7 +440,7 @@ neg_no.extend(posi_no)
 print("Integers:",neg_no)
 ```
 
-## Counting items in a lists:- ➡️
+## ✅ Counting items in a lists:- ➡️
 - The <kbd>count()</kbd> method returns the numbers of times an item appers in a lists.
 ```py
 Syntax:-
@@ -454,7 +454,7 @@ fruits=['apple','suleman','orange','banana',"sulemann",'suleman']
 print(fruits.count('suleman')) #'suleman' ye list ka ander 2 baar hai,"suleman" alag hai .
 ```
 
-## Finding index of an items:- ➡️
+## ✅ Finding index of an items:- ➡️
 - The <kbd>index()</kbd> methods returns the index of an items in the lists.
 ```py
 Syntax:-
@@ -470,7 +470,7 @@ ages=[22,34,90,22,10,50,30,22]
 print(ages.index(22)) # 0 q ki the first occurrence.
 ```
 
-## Reversing a list:- ➡️
+## ✅ Reversing a list:- ➡️
 - The <kbd>reverse()</kbd> method reverse the order of a list.
 ```py
 Syntax:-
@@ -486,7 +486,7 @@ ages.reverse()
 print(ages)
 ```
 
-## Sorting lists items:- ➡️ 
+## ✅ Sorting lists items:- ➡️ 
 - To sort lists we can use <kbd>sort()</kbd> methods or sorted() built-in function.  
 - The sort() methods reorders the list items in ascending order & modifies the original lists.if the argument of sort() methods reverse is equal to true,it will arrenge the list in decending order.
 - sort():- this methods modifies the original list.
