@@ -80,3 +80,32 @@ print(student)
 > {'name':'Suleman' } :-  
 > The second value replace the first value because dictionary key must be unique.
 
+#### Dictionary length:-
+-  It checks the numbers of 'keys:value' are in the dictionary.
+```py
+Syntax:-
+dict={
+  'key1':'value1',
+  'key2':'value2',
+  'key3':'value3'
+}
+print(len(dict))
+```
+###### Ex:-
+```py
+person2={
+  'first_name':'suleman',
+  'last_name':'hussain shah',
+  "age":20,
+  'country':'India',
+  "address":{
+    'vill':'jala',
+    "pin": 827010
+  }
+}
+print(person2)
+```
+#### Different way to create dictionary:-
+
+
+
