@@ -458,15 +458,20 @@ challenge = 'thirty days of python 2019'
 print(challenge.isalnum()) # False
 ```
 
-#isalpha(): Checks if all string elements are alphabet characters (a-z and A-Z)
+#### <kbd>isalpha()</kbd>:- Checks if all string elements are alphabet characters (a-z and A-Z)
+###### Ex:-
+```py
 challenge = 'thirty days of python'
 print(challenge.isalpha()) # False, space is once again excluded
 challenge = 'ThirtyDaysPython'
 print(challenge.isalpha()) # True
 num = '123'
 print(num.isalpha())      # False
+```
 
-#isdecimal(): Checks if all characters in a string are decimal (0-9)
+#### <kbd>isdecimal()</kbd>:- Checks if all characters in a string are decimal (0-9)
+###### Ex:-
+```py
 challenge = 'thirty days of python'
 print(challenge.isdecimal())  # False
 challenge = '123'
@@ -475,37 +480,51 @@ challenge = '\u00B2'
 print(challenge.isdigit())   # True 
 challenge = '12 3'
 print(challenge.isdecimal())  # False, space not allowed
+```
 
-#isdigit(): Checks if all characters in a string are numbers (0-9 and some other unicode characters for numbers)
+#### <kbd>isdigit()</kbd>:- Checks if all characters in a string are numbers (0-9 and some other unicode characters for numbers)
+###### Ex:-
+```py
 challenge = 'Thirty'
 print(challenge.isdigit()) # False
 challenge = '30'
 print(challenge.isdigit())   # True
 challenge = '\u00B2'
 print(challenge.isdigit())   # True
+```
 
-#isnumeric(): Checks if all characters in a string are numbers or number related (just like isdigit(), just accepts more symbols, like ½)
+#### <kbd>isnumeric()</kbd>:- Checks if all characters in a string are numbers or number related (just like isdigit(), just accepts more symbols, like ½)
+###### Ex:-
+```py
 num = '10'
 print(num.isnumeric()) # True
 num = '\u00BD' # ½
 print(num.isnumeric()) # True
 num = '10.5'
 print(num.isnumeric()) # False
-
-#isidentifier(): Checks for a valid identifier - it checks if a string is a valid variable name
+```
+#### <kbd>isidentifier()</kbd>:- Checks for a valid identifier - it checks if a string is a valid variable name
+###### Ex:-
+```py
 challenge = '30DaysOfPython'
 print(challenge.isidentifier()) # False, because it starts with a number
 challenge = 'thirty_days_of_python'
 print(challenge.isidentifier()) # True
-
-#islower(): Checks if all alphabet characters in the string are lowercase
+```
+#### <kbd>islower()</kbd>:- Checks if all alphabet characters in the string are lowercase
+###### Ex:-
+```py
 challenge = 'thirty days of python'
 print(challenge.islower()) # True
 challenge = 'Thirty days of python'
 print(challenge.islower()) # False
+```
 
-#isupper(): Checks if all alphabet characters in the string are uppercase
+#### <kbd>isupper()</kbd>:- Checks if all alphabet characters in the string are uppercase
+###### Ex:-
+```py
 challenge = 'thirty days of python'
 print(challenge.isupper()) #  False
 challenge = 'THIRTY DAYS OF PYTHON'
 print(challenge.isupper()) # True
+```
