@@ -111,17 +111,17 @@ print(type(price))
 
 
 # example:-
-num1=int(input("enter first numbers:"))
-num2=int(input("enter second numbers:"))
+num1=int(input("enter first numbers:")) #20
+num2=int(input("enter second numbers:")) #21
 
 result=num1+num2
 
-print("sum is :",result)
+print("sum is :",result) # output sum is :41
 
 # WHAT happens without int():-
-num1=input("enter first numbers:")
-num2=input("enter second numbers:")
+num1=input("enter first numbers:") # 10
+num2=input("enter second numbers:") #15
 
 result= num1+num2
 
-print("sum :",result)
+print("sum :",result) #output sum:1015
